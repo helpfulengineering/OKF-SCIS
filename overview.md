@@ -1,58 +1,16 @@
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.853 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Wed May 11 2022 14:06:31 GMT-0700 (PDT)
-* Source doc: A Formalization of Supply Chains for Security and Resilience_Git Version
------>
-
-
-Formalizing and Implementing Supply Chains \
-for Security and Resilience
+# Formalizing and Implementing Supply Chains for Security and Resilience
 
 V5 – Updated 7Apr2022
 
-<p style="text-align: right">
-Authors \
-Edward Griffor \
-James Butler</p>
+Authors
+* Edward Griffor
+* James Butler
+* Sahra Abowitz
+* Benjamin Treuhaft
+* PatrickWilkie
+* Robert Read
 
-
-<p style="text-align: right">
-Sahra Abowitz</p>
-
-
-<p style="text-align: right">
-Benjamin Treuhaft</p>
-
-
-<p style="text-align: right">
-PatrickWilkie</p>
-
-
-<p style="text-align: right">
-Robert Read \
-</p>
-
-
-Table of Contents
-
-
+## Table of Contents
 
 * Background
 * Natural Language Definitions and Descriptions
@@ -60,21 +18,19 @@ Table of Contents
 * Quantifying Supply Chain Resilience
 * Implementing Supply Chains on and Information Technology-Based Platform
 
-**Background**
+## **Background**
 
 Economies, and the businesses in the various sectors of those economies, struggle to manage capacity, struggled to balance supply with demand, especially in times where demand has surged. The causes of imbalance vary widely. However, recent surges in demand were for specific goods and services needed to respond to the COVID 19 pandemic. 
 
 Today’s supply chains integrate physical and digital capabilities – including sensors, networks, data, and analytics – to improve efficiency and awareness. The sections below describe how the application of concepts from the field of cyber-physical systems (CPS) can enhance supply chain agility and resilience. The first section provides natural language definitions and descriptions of the relevant properties of supply chains. The second section sets out a formal approach to enable the application of powerful computational methods, including artificial intelligence, to the goals of supply chain security and resilience. 
 
-**Natural Language Definitions and Descriptions**
+## **Natural Language Definitions and Descriptions**
 
 The elements of a supply chain can comprise everything from the supply of raw materials to the end consumer, and include all intermediate steps, ranging from engineering, and manufacturing to logistics and distribution. 
 
 The ‘glue’ that holds the elements of a supply chain together and provides trust or confidence is the set of agreements or contracts, which describe the requirements for associated transactions, specifying what is supplied, how much, its characteristics, payments, etc. This ‘glue’ represents the means by which a supply chain is composed.
 
 Steps in a supply chain are ordered and consist of transactions between two or more elements in which completion of the responsibilities of a preceding element(s) is a prerequisite for the succeeding element(s) to execute their responsibilities.  The ordering of steps and associated dependencies create three critical characteristics of a supply chain.
-
-
 
 * First, disruption of any one step influences the function of the entire chain. The resulting ‘brittleness’ (i.e. lack of resilience) is described in more detail below. 
 * Second, steps in a supply chain may converge (where many elements are followed by one or a few), or branch (where one or a few elements are succeeded by many).  This creates both ‘bottlenecks,’ where flow throughout the chain depends on a small number of elements; and options, where multiple elements may be available for a required step.  The balance of bottlenecks and options influences the resilience and agility of a supply chain. 
@@ -94,7 +50,7 @@ To achieve a supply chain that is resilient to disruptions, requires a deeper un
 
 This is a complex structure that to date has not been apparent to participants in the market and, for just this reason, disruptions occur and shortages result or the products fail to meet the need of the customer. Hence this complexity needs to be illuminated by having a precise and measurable description of supply chain, orders and their dynamics.
 
-**The Structure of Supply Chains**
+## **The Structure of Supply Chains**
 
 In this essay we will introduce formal definitions of ‘supply chain’ and ‘order,’ drawn from existing standards or a published taxonomy (e.g. GS1 taxonomy). Further we will define a _dynamic supply chain_ as one that can be created, assessed, modified, or restructured in real-time using an implementation of this formalization.
 
@@ -106,8 +62,8 @@ An order is _valid_ when all relevant customer requirements are fully specified 
 
 <sup>[1]</sup> Evidence includes automated and recorded human assertions.
 
-<sup>2</sup> Risk factors and associated risk levels are specified via implementing contracts.
+<sup>[2]</sup> Risk factors and associated risk levels are specified via implementing contracts.
 
-<sup>3</sup> An element is incomplete when its associated verifiable evidence is incomplete. 
+<sup>[3]</sup> An element is incomplete when its associated verifiable evidence is incomplete. 
 
-<sup>4</sup> One purpose of the platform, in addition to creating new supply chains, is to manage risk and repair disruptions to active chains.
+<sup>[4]</sup> One purpose of the platform, in addition to creating new supply chains, is to manage risk and repair disruptions to active chains.
