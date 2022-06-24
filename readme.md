@@ -1,8 +1,17 @@
 # Open-Knowledge-Framework for Supply Chain Interoperability Specification
 
-Please see the [Overview](/overview.md) and the [Green Paper](https://helpfulengineering.github.io/green-paper.html)
+Please see the [Overview](/overview.md) and the [Green Paper](/green-paper.html)
 
-## Collaboration
+## License
+
+This work is a scientific research paper licensed under the [Creative Commons Attribution No Derivatives license](https://creativecommons.org/licenses/by-nd/4.0/legalcode).
+
+## Editng and Requests For Comments
+
+We invite comments on this paper. If we person makes a very significant contribution to this paper as a suggestion, issue or pull request, in the form of actual text we adopt, we will consider making them a co-author at our sole discretion.
+This is an open paper paper published under an open license and we consider contributions to be open.
+
+### Publishing Process
 
 The Green Paper is authored using Google Docs and published on this site via [GitHub Pages](https://pages.github.com/).
 As such, we will not be accepting pull requests to update the document.
@@ -21,3 +30,5 @@ We are investigating automating the process, but for now these are the manual st
 > GitHub pages is also configured to publish that branch on the web.
 > Once the repo + green paper file names have been finalized, the changes will be merged into `main` branch 
 > and GitHub Pages configuration will be updated.
+Please see the [Overview](/overview.md) and the [Green Paper](/green-paper.md)
+
