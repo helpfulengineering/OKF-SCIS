@@ -30,5 +30,3 @@ We are investigating automating the process, but for now these are the manual st
 > GitHub pages is also configured to publish that branch on the web.
 > Once the repo + green paper file names have been finalized, the changes will be merged into `main` branch 
 > and GitHub Pages configuration will be updated.
-Please see the [Overview](/overview.md) and the [Green Paper](/green-paper.md)
-
